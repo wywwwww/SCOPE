@@ -29,3 +29,4 @@ sh experiments/cifar-100.sh
 sh experiments/imagenet-r_all.sh
 sh experiments/cub-200.sh
 ## Acknowledgements
+Our implementation is based on https://github.com/aimagelab/mammoth
