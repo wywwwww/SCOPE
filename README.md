@@ -1,21 +1,24 @@
 # Self-Regulating Prompt Expansion for Continual Learning (SCOPE)
-This is the official implementation of DEDUCE in the paper in Pytorch.
 ## Datasets
 - CIFAR-100
 - CUB-200
 - ImageNet-R
 
 **NOTE:** Datasets are automatically downloaded in data/.
-
 - This can be changed by changing the base_path function in utils/conf.py or using the --base_path argument.
 - The data/ folder should not be tracked by git and is created automatically if missing.
 ## Installation
-- To execute the codes for running experiments, run the following.
-```bash
-pip install -r requirements.txt
-```
-- New models can be added to the models/ folder.
-- New datasets can be added to the datasets/ folder.
+- python=3.8.18
+- torch=2.0.0+cu118
+- torchvision=0.15.1+cu118
+- timm=0.9.12
+- scikit-learn=1.3.2
+- numpy
+- pyaml
+- pillow
+- opencv-python
+- pandas
+- openpyxl (write results to a xlsx file)
 ## Checkpoints
 Create a folder pretrained/
 - Sup-21K
