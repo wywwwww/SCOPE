@@ -26,7 +26,6 @@ Create a folder pretrained/
 - iBOT-1k
 - DINO-1k
 ## Examples
-### Run a model
 Run the following commands under the project root directory. The scripts are set up for 1 GPUs.
 sh experiments/cifar-100.sh
 sh experiments/imagenet-r_all.sh
